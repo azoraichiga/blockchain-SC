@@ -13,7 +13,7 @@ Smart contract reward system for students using Solidity and Hardhat.
 - Event logging
 
 ## Installation
-
+Clone repository:
 ```bash
 npm install
 ```
