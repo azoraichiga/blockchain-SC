@@ -21,10 +21,7 @@ describe("CourseRewardSystem", function () {
 
     await contract.waitForDeployment();
 
-    await owner.sendTransaction({
-      to: await contract.getAddress(),
-      value: ethers.parseEther("10")
-    });
+    await contract.depositFunds({ value: ethers.parseEther("10") });
   });
 
   it("Should set correct owner", async function () {
