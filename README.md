@@ -1,4 +1,8 @@
 # Blockchain Smart Contract
+
+Nama: Brigitta Lucia Orina H.
+NRP: 5002221162
+
 # Course Reward System
 
 Smart contract reward system for students using Solidity and Hardhat.
