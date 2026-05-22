@@ -1,7 +1,6 @@
 # Blockchain Smart Contract
 
-Nama: Brigitta Lucia Orina H.
-NRP: 5002221162
+Brigitta Lucia Orina Hutabarat / 5002221162
 
 # Course Reward System
 
