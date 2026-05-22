@@ -13,6 +13,10 @@ async function main() {
 
     await contract.waitForDeployment();
 
+    const tx = await contract.depositFunds({
+        value: hre.ethers.parseEther("10")
+    })
+
     console.log(
         "Contract deployed to:",
         await contract.getAddress()
